@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42DD60FA2602EB4800A7718A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DD60F92602EB4800A7718A /* AppDelegate.swift */; };
+		42DD60FD2602EB4800A7718A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42DD60FB2602EB4800A7718A /* Main.storyboard */; };
+		42DD60FF2602EB4800A7718A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DD60FE2602EB4800A7718A /* ViewController.swift */; };
+		42DD61012602EB5600A7718A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42DD61002602EB5600A7718A /* Assets.xcassets */; };
+		42DD61082602EB5800A7718A /* Bypass Paywalls Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 42DD61072602EB5800A7718A /* Bypass Paywalls Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		42DD610D2602EB5800A7718A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DD610C2602EB5800A7718A /* Cocoa.framework */; };
+		42DD61102602EB5800A7718A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DD610F2602EB5800A7718A /* SafariWebExtensionHandler.swift */; };
+		42DD61232602EB5C00A7718A /* legacy in Resources */ = {isa = PBXBuildFile; fileRef = 42DD611D2602EB5C00A7718A /* legacy */; };
+		42DD61242602EB5D00A7718A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 42DD611E2602EB5C00A7718A /* README.md */; };
+		42DD61252602EB5D00A7718A /* manifest-ff.json in Resources */ = {isa = PBXBuildFile; fileRef = 42DD611F2602EB5C00A7718A /* manifest-ff.json */; };
+		42DD61262602EB5D00A7718A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 42DD61202602EB5C00A7718A /* manifest.json */; };
+		42DD61272602EB5D00A7718A /* build in Resources */ = {isa = PBXBuildFile; fileRef = 42DD61212602EB5C00A7718A /* build */; };
+		42DD61282602EB5D00A7718A /* src in Resources */ = {isa = PBXBuildFile; fileRef = 42DD61222602EB5C00A7718A /* src */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42DD61092602EB5800A7718A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42DD60ED2602EB4800A7718A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42DD61062602EB5800A7718A;
+			remoteInfo = "Bypass Paywalls Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42DD61182602EB5900A7718A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				42DD61082602EB5800A7718A /* Bypass Paywalls Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		42DD60F52602EB4800A7718A /* Bypass Paywalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bypass Paywalls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DD60F82602EB4800A7718A /* Bypass_Paywalls.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bypass_Paywalls.entitlements; sourceTree = "<group>"; };
+		42DD60F92602EB4800A7718A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42DD60FC2602EB4800A7718A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42DD60FE2602EB4800A7718A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42DD61002602EB5600A7718A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42DD61022602EB5600A7718A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42DD61072602EB5800A7718A /* Bypass Paywalls Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Bypass Paywalls Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DD610C2602EB5800A7718A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		42DD610F2602EB5800A7718A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		42DD61112602EB5800A7718A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42DD61122602EB5800A7718A /* Bypass_Paywalls_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bypass_Paywalls_Extension.entitlements; sourceTree = "<group>"; };
+		42DD611D2602EB5C00A7718A /* legacy */ = {isa = PBXFileReference; lastKnownFileType = folder; name = legacy; path = "../../bypass-paywalls-safari/legacy"; sourceTree = "<group>"; };
+		42DD611E2602EB5C00A7718A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../bypass-paywalls-safari/README.md"; sourceTree = "<group>"; };
+		42DD611F2602EB5C00A7718A /* manifest-ff.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "manifest-ff.json"; path = "../../bypass-paywalls-safari/manifest-ff.json"; sourceTree = "<group>"; };
+		42DD61202602EB5C00A7718A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../bypass-paywalls-safari/manifest.json"; sourceTree = "<group>"; };
+		42DD61212602EB5C00A7718A /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; name = build; path = "../../bypass-paywalls-safari/build"; sourceTree = "<group>"; };
+		42DD61222602EB5C00A7718A /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = "../../bypass-paywalls-safari/src"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42DD60F22602EB4800A7718A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DD61042602EB5800A7718A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DD610D2602EB5800A7718A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42DD60EC2602EB4800A7718A = {
+			isa = PBXGroup;
+			children = (
+				42DD60F72602EB4800A7718A /* Bypass Paywalls */,
+				42DD610E2602EB5800A7718A /* Bypass Paywalls Extension */,
+				42DD610B2602EB5800A7718A /* Frameworks */,
+				42DD60F62602EB4800A7718A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42DD60F62602EB4800A7718A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42DD60F52602EB4800A7718A /* Bypass Paywalls.app */,
+				42DD61072602EB5800A7718A /* Bypass Paywalls Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42DD60F72602EB4800A7718A /* Bypass Paywalls */ = {
+			isa = PBXGroup;
+			children = (
+				42DD60F82602EB4800A7718A /* Bypass_Paywalls.entitlements */,
+				42DD60F92602EB4800A7718A /* AppDelegate.swift */,
+				42DD60FB2602EB4800A7718A /* Main.storyboard */,
+				42DD60FE2602EB4800A7718A /* ViewController.swift */,
+				42DD61002602EB5600A7718A /* Assets.xcassets */,
+				42DD61022602EB5600A7718A /* Info.plist */,
+			);
+			path = "Bypass Paywalls";
+			sourceTree = "<group>";
+		};
+		42DD610B2602EB5800A7718A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42DD610C2602EB5800A7718A /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42DD610E2602EB5800A7718A /* Bypass Paywalls Extension */ = {
+			isa = PBXGroup;
+			children = (
+				42DD611C2602EB5C00A7718A /* Resources */,
+				42DD610F2602EB5800A7718A /* SafariWebExtensionHandler.swift */,
+				42DD61112602EB5800A7718A /* Info.plist */,
+				42DD61122602EB5800A7718A /* Bypass_Paywalls_Extension.entitlements */,
+			);
+			path = "Bypass Paywalls Extension";
+			sourceTree = "<group>";
+		};
+		42DD611C2602EB5C00A7718A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42DD611D2602EB5C00A7718A /* legacy */,
+				42DD611E2602EB5C00A7718A /* README.md */,
+				42DD611F2602EB5C00A7718A /* manifest-ff.json */,
+				42DD61202602EB5C00A7718A /* manifest.json */,
+				42DD61212602EB5C00A7718A /* build */,
+				42DD61222602EB5C00A7718A /* src */,
+			);
+			name = Resources;
+			path = "Bypass Paywalls Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42DD60F42602EB4800A7718A /* Bypass Paywalls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42DD61192602EB5900A7718A /* Build configuration list for PBXNativeTarget "Bypass Paywalls" */;
+			buildPhases = (
+				42DD60F12602EB4800A7718A /* Sources */,
+				42DD60F22602EB4800A7718A /* Frameworks */,
+				42DD60F32602EB4800A7718A /* Resources */,
+				42DD61182602EB5900A7718A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42DD610A2602EB5800A7718A /* PBXTargetDependency */,
+			);
+			name = "Bypass Paywalls";
+			productName = "Bypass Paywalls";
+			productReference = 42DD60F52602EB4800A7718A /* Bypass Paywalls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42DD61062602EB5800A7718A /* Bypass Paywalls Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42DD61152602EB5900A7718A /* Build configuration list for PBXNativeTarget "Bypass Paywalls Extension" */;
+			buildPhases = (
+				42DD61032602EB5800A7718A /* Sources */,
+				42DD61042602EB5800A7718A /* Frameworks */,
+				42DD61052602EB5800A7718A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bypass Paywalls Extension";
+			productName = "Bypass Paywalls Extension";
+			productReference = 42DD61072602EB5800A7718A /* Bypass Paywalls Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42DD60ED2602EB4800A7718A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					42DD60F42602EB4800A7718A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					42DD61062602EB5800A7718A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 42DD60F02602EB4800A7718A /* Build configuration list for PBXProject "Bypass Paywalls" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42DD60EC2602EB4800A7718A;
+			productRefGroup = 42DD60F62602EB4800A7718A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42DD60F42602EB4800A7718A /* Bypass Paywalls */,
+				42DD61062602EB5800A7718A /* Bypass Paywalls Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42DD60F32602EB4800A7718A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DD61012602EB5600A7718A /* Assets.xcassets in Resources */,
+				42DD60FD2602EB4800A7718A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DD61052602EB5800A7718A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DD61272602EB5D00A7718A /* build in Resources */,
+				42DD61262602EB5D00A7718A /* manifest.json in Resources */,
+				42DD61242602EB5D00A7718A /* README.md in Resources */,
+				42DD61282602EB5D00A7718A /* src in Resources */,
+				42DD61252602EB5D00A7718A /* manifest-ff.json in Resources */,
+				42DD61232602EB5C00A7718A /* legacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42DD60F12602EB4800A7718A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DD60FF2602EB4800A7718A /* ViewController.swift in Sources */,
+				42DD60FA2602EB4800A7718A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DD61032602EB5800A7718A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DD61102602EB5800A7718A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42DD610A2602EB5800A7718A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42DD61062602EB5800A7718A /* Bypass Paywalls Extension */;
+			targetProxy = 42DD61092602EB5800A7718A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42DD60FB2602EB4800A7718A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42DD60FC2602EB4800A7718A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42DD61132602EB5900A7718A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42DD61142602EB5900A7718A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		42DD61162602EB5900A7718A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Bypass Paywalls Extension/Bypass_Paywalls_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bypass Paywalls Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Bypass-Paywalls.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		42DD61172602EB5900A7718A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Bypass Paywalls Extension/Bypass_Paywalls_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bypass Paywalls Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Bypass-Paywalls.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		42DD611A2602EB5900A7718A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Bypass Paywalls/Bypass_Paywalls.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Bypass Paywalls/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Bypass-Paywalls";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		42DD611B2602EB5900A7718A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Bypass Paywalls/Bypass_Paywalls.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Bypass Paywalls/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Bypass-Paywalls";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42DD60F02602EB4800A7718A /* Build configuration list for PBXProject "Bypass Paywalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DD61132602EB5900A7718A /* Debug */,
+				42DD61142602EB5900A7718A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42DD61152602EB5900A7718A /* Build configuration list for PBXNativeTarget "Bypass Paywalls Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DD61162602EB5900A7718A /* Debug */,
+				42DD61172602EB5900A7718A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42DD61192602EB5900A7718A /* Build configuration list for PBXNativeTarget "Bypass Paywalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DD611A2602EB5900A7718A /* Debug */,
+				42DD611B2602EB5900A7718A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42DD60ED2602EB4800A7718A /* Project object */;
+}
